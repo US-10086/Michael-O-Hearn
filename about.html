@@ -14,18 +14,88 @@
                 padding: 10px 0px;
                 justify-content: space-between;
             }
+            .main img.main_img  
+            {
+                width: 26%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .main .main_contents
+            {
+                width: 74.7%;
+                height: 100%;
+                background-color: #f5f5f5;
+            }
+            .main .main_contents .msgs
+            {
+                width: 100%;
+                padding: 10px;
+                border: 3px solid #f5f5f5;
+                display: flex;
+                margin: 5px 0px;
+                height: calc(100%/2-0px);
+                justify-content: space-between;
+            }
+            .main .main_contents .msgs img
+            {
+                width: 25%;
+                height: 100%;;
+            }
+            .main .main_contents .msgs .msgs2
+            {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100vh;
+                font-size: 6rem;
+                margin:0 auto;
+            }
+            .three_imgs
+            {
+                width: 100%;
+                height: 540px;
+                background-color: burlywood;
+                margin-bottom: 1%;
+                display: flex;
+                justify-content: space-between;
+            }
+            .three_imgs img
+            {
+                border: 3px solid burlywood;
+                padding: 10px;
+                box-shadow: 1px 1px 3px slategray;
+            }
+            .three_imgs:hover
+            {
+                transition: all .3s;
+               border:30px solid white;
+               cursor: pointer;
+               box-shadow:5px 5px 10px slategray;
+            }
         </style>
     </head>
     <body>
         <img src="./image/dlw1.png" alt="" class="banner">
         <div class="menus">
             <a href="./index.html">主页</a>
-            <a href="./index.html">人物介绍</a>
-            <a href="./index.html">精彩剪影</a>
-            <a href="./index.html">二次创作</a>
-            <a href="./index.html">关于我们</a>
+            <a href="./introduction.html">人物介绍</a>
+            <a href="./slice.html">精彩剪影</a>
+            <a href="./second.html">二次创作</a>
+            <a href="./about.html">关于我们</a>
         </div>
         <div class="main">
+            <div class="main_contents">
+                <div class="msgs">
+                    <div class="msgs2">
+                        华中科技大学<br>
+                        计算机科学与技术学院<br><br>
+                        QQ:3354720784<br>
+                        邮箱:3354720784@qq.com<br>
+                        电话:15971321931<br>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="footer">
             大力王
